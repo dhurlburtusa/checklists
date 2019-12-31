@@ -1,4 +1,4 @@
-# Web Servers Checklist
+# Servers Checklist
 
 
 ## General
