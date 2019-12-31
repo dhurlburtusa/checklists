@@ -24,10 +24,10 @@
 - [ ] Password recovery process responds with "If that email address is in our database, we will send you an email to reset your password".
 - [ ] Account creation process does not respond with "This user ID is already in use".
 - [ ] Account creation process responds with "A link to activate your account has been emailed to ⟨input email address⟩".
-- [ ] Brute force attack protection in place, e.g., account lockout.
-- [ ] Credential stuffing attack protection in place.
-- [ ] Password spraying attack protection in place.
-- [ ] Multi-factor authentication in place.
+- [ ] Brute force attack protection in place, e.g., account lockout or MFA.
+- [ ] Credential stuffing attack protection in place, e.g., account lockout or MFA.
+- [ ] Password spraying attack protection in place, e.g., account lockout or MFA.
+- [ ] Multi-factor authentication (MFA) in place.
 - [ ] Allows authentication via password recovery (aka forgotten password) functionality, even if the account is locked out.
 - [ ] Uses CAPTCHA.
 	+ Uses CAPTCHA only after failed login attempts.
