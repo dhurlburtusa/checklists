@@ -3,11 +3,13 @@
 
 ## General
 
-- A CDN or the web server itself is handling static content.
+- [ ] A CDN or the web server itself is handling static content.
   + That is, no app or app server is serving static content. These should be handling dynamic content.
 
 
 ## Security
+
+The security checks here are web server specific. Also see https://github.com/dhurlburtusa/checklists/edit/master/servers/servers-checklist.md for general server security.
 
 ### Authentication
 
@@ -35,13 +37,6 @@
 - [ ] All authentication failures are logged and reviewed.
 - [ ] All password failures are logged and reviewed.
 - [ ] All account lockouts are logged and reviewed.
-
-### File System
-
-- [ ] `~/.ssh/` has permission 700 for each user.
-	+ `chmod 700 ~/.ssh/`
-- [ ] `~/.ssh/authorized_keys` has permission 600 for each user.
-	+ `chmod 600 ~/.ssh/authorized_keys`
 
 ### HTTP
 
