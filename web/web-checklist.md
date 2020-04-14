@@ -10,3 +10,5 @@
 	+ [ ] Use correct doctype: `<!DOCTYPE html>`
 	+ [ ] Meta charset tag within first 1024 characters.
 	+ [ ] Appropriate `title` tag.
+- [ ] robots.txt
+	+ [ ] Has a properly configured `robots.txt` defined.
