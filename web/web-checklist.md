@@ -1,5 +1,16 @@
 # Web Checklist
 
+## Browser Support
+
+- [ ] Supported browsers documented.
+- [ ] Run JavaScript to make sure browser is capable of running app. Can warn if some unimportant areas may not work.
+- [ ] Load necessary polyfills after initial page load. That is, JavaScript runs to determine which polyfills are necessary.
+
+## Front-End Frameworks
+
+- [ ] React
+- [ ] Solid
+- [ ] Vue
 
 ## Misc
 
