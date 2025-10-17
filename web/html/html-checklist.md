@@ -1,5 +1,13 @@
 # HTML Checklist
 
+## Requirements
+
+- [ ] SEO?
+  - [ ] JSON-LD
+  - [ ] RDFa
+  - [ ] Other?
+- [ ] Accessiblity?
+  - Level? (AAA, AA, A, other? 
 
 ## Misc
 
